@@ -1,0 +1,191 @@
+.row-layout {
+  display: flex;
+}
+.surface-pro-8-1-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.surface-pro-8-1 {
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  padding: 0 -975px 0 0;
+  width: 100%;
+  height: 100%;
+  min-width: min-content;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative;
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.frame-5 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  left: 10%;
+  top: 693px;
+  position: absolute;
+  width: 443px;
+  height: 6.1%;
+  min-width: min-content;
+  min-height: 49px;
+  max-width: 443px;
+  max-height: 6.1%;
+  flex-grow: 1;
+}
+.frame-4 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
+.frame-1 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  left: 16%;
+  top: 305px;
+  position: absolute;
+  width: 162px;
+  height: 342px;
+  min-width: min-content;
+  min-height: 342px;
+  max-width: 162px;
+  max-height: 342px;
+  flex-grow: 1;
+}
+.frame-2 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 23px;
+  left: 34%;
+  top: 305px;
+  position: absolute;
+  width: 162px;
+  height: 342px;
+  min-width: min-content;
+  min-height: 342px;
+  max-width: 162px;
+  max-height: 342px;
+  flex-grow: 1;
+}
+.frame-3 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 18px;
+  right: 48%;
+  top: 359px;
+  position: absolute;
+  width: 48px;
+  height: 18%;
+  min-width: min-content;
+  min-height: 144px;
+  max-width: 48px;
+  max-height: 18%;
+  flex-grow: 1;
+}
+.here-lies-some-text {
+  color: #FF0000FF;
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 100%;
+  max-width: 100%;
+}
+.icon {
+  color: #FFCC00FF;
+}
+.title {
+  color: var(--ig-gray-900);
+  position: relative;
+}
+.icon_1 {
+  color: #FFFFFFFF;
+}
+.button {
+  position: relative;
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+}
+.button_1 {
+  position: relative;
+  height: max-content;
+}
+.button_2 {
+  --ig-size: var(--ig-size-medium);
+  position: relative;
+  height: max-content;
+  align-self: stretch;
+}
+.button_3 {
+  position: relative;
+  width: max-content;
+  height: max-content;
+  align-self: stretch;
+}
+.button_4::part(base) {
+  color: #FFCC00FF;
+  background-color: var(--ig-primary-400);
+}
+.button_1_1::part(base) {
+  background-color: var(--ig-primary-400);
+}
+.button_2_1::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-500);
+}
+.button_2_2::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-500);
+}
+.button_2_3::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-500);
+}
+.button_2_4::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-500);
+}
+.button_2_5::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-500);
+}
+.button_2_6::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-500);
+}
+.button_3_1::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-400);
+}
+.button_3_2::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-400);
+}
+.button_3_3::part(base) {
+  color: #FFFFFFFF;
+  background-color: var(--ig-primary-400);
+}

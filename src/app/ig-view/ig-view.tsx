@@ -6,6 +6,7 @@ import '/src/app/base-view-styles.css';
 export default function IgView() {
   const classes = createClassTransformer(styles);
   const _somevar = 'hello';
+  const _anothervar = 'goodbye';
 
   return (
     <>
